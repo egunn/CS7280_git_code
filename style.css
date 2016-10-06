@@ -16,33 +16,17 @@
 }
 
 
-@font-face {
-    font-family: 'Open Sans Black';
-    font-style: black;
-    font-weight: 400;
-    src: local('Open Sans Black'), local('OpenSansBlack'), url('./fonts/OpenSans-ExtraBold.ttf') format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-
-@font-face {
-    font-family: 'Frijole-Regular';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Frijole-Regular'), local('Frijole-Regular'), url('./fonts/Frijole-Regular.ttf') format('ttf');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}
-
 
 body{
     font-family: "Open Sans", Arial, sans-serif;
     padding-left: 15px;
     font-size:10pt;
-
+    padding-top:150px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
+    align-items: left;
+    justify-content: left;
+    position: relative;
     top: 0px;
     bottom: 0px;
     left: 0px;
@@ -64,13 +48,14 @@ strong {
     letter-spacing: 2px;
     font-weight: lighter;
     word-spacing: 4px;
-    text-align:center;
+    text-align:left;
+    padding-left:20%;
 
 }
 
 a{
     color:darkgray;
-    line-height: 1.75em;
+    line-height: 2.25em;
 }
 
 h2{
@@ -80,103 +65,16 @@ h2{
     padding-top:20px;
 }
 
-canvas {
-    border: 1px solid hsl(0,10%,90%);
-    width: auto;
-    height: 50%;
-}
-
-
-/*following example at http://jsfiddle.net/sncb91t8/*/
-.links{
-
-    color:darkgray;
-    list-style: none;
-    margin:0px;
-    padding-top:15px;
-    padding-bottom:5px;
-}
 
 .fplinks {
 
-    text-align:center;
+    text-align:left;
     list-style: none;
-    padding: 0px;
+    padding-left: 20%;
     margin:0px;
     padding-bottom:175px;
 }
 
-.links li{
-    position:relative;
-    display:inline-block;
-    list-style-type:none;
-    padding:0 4px;
-}
-
-.links li > a {
-    position: relative;
-    display: block;
-}
-
-.anchor {
-    display:block;
-    clear:both;
-    height: 450px;
-    /*background:lightgrey;*/
-    border:1px;
-    border-left:5px;
-    border-style:solid;
-    border-color: lightgrey;
-    border-radius:10px;
-    margin-top: 5px;
-}
-
-img {
-    flex: 1 200px;
-    padding:0px;
-    border-radius:10px;
-    -moz-border-radius:10px;
-    -webkit-border-radius: 10px;
-    overflow:hidden;
-    margin-top:60px;
-    margin-left:50px;
-}
-
-.photodiv {
-    height:100%;
-    width:400px;
-    float:left;
-}
-
-
-.name{
-
-}
-
-.profile-text{
-    display:block;
-    position:relative;
-    float:left;
-    padding-top:290px;
-}
-
-.title{
-
-}
-
-svg{
-    width:98%;
-    height:430px;
-    padding:5px;
-    border:none;
-}
-
-.svg3{
-    width:98%;
-    height:408px;
-    padding:5px;
-    border:none;
-}
 
 
 .link{
@@ -184,10 +82,6 @@ svg{
 
 }
 
-.link2{
-    display:block;
-    text-align:center;
-}
 
 ul{
     padding-left:5px;

@@ -1,0 +1,36 @@
+ID,college,city,state,country,nativeLang,otherLang,institution,city2,state2,country2,OS,mobileOS,prefProgLang,numCups,sizeCoff,chocVan,favCol,favNum,wakeup,bedtime
+R_1EYubYhNyzZccgv,CCIS,Shenyang,,China,Mandarin,English,Dalian University of Technology,Dalian,Liaoning,China,Linux/Unix,Apple iOS,python,1,Large,Chocolate,blue,5,7:00 AM,12:00 AM
+R_1JCx0pa0eGzgOei,CCIS,Faizabad,,India,Hindi,English,Bhartividyapeeth University,Pune,,India,Linux/Unix,Apple iOS,Java,3,Large,Chocolate,Green,1,7:00 AM,2:00 AM
+R_1jOqOi5FVfkRUT0,CCIS,Moscow,,Russia,Russian,English,Moscow State University,Moscow,,Russia,Linux/Unix,Apple iOS,Java,0,,,cyan,17,12:00 AM,12:00 AM
+R_1lauWYelznyCwTJ,CCIS,Mumbai,,India,Marathi,"English, Hindi, Konkani",University of Pune,Pune,,India,Linux/Unix,Android,Java,1,Medium,Vanilla,Black,7,12:00 AM,12:00 AM
+R_1ZJAOpeP64g3ydX,CCIS,Delhi,,India,Hindi,"English, German(Basic)",Vellore Institute of Technology,Vellore,,India,Apple,Apple iOS,R,4,Large,Chocolate,Black,8,12:00 AM,12:00 AM
+R_1ZJAOpeP64g3ydX,CCIS,,,India,,,,,,India,,,Python,,,,,,,
+R_293LsgeCZMnuLwA,CCIS,New Delhi,,India,Hindi,English,University of Mumbai,Mumbai,,India,Apple,Apple iOS,Java,1,Small,Vanilla,Blue,8,10:00 AM,1:00 AM
+R_2DY1TKShmoCXG1Q,CCIS,Kolkata,,India,Bengali,"Hindi, English","College Of Engineering, Bhubaneswar",Bhubaneswar,,India,Apple,Apple iOS,Java,3,Medium,Chocolate,Blue,7,12:00 AM,12:00 AM
+R_2DY1TKShmoCXG1Q,CCIS,,,India,,,,,,India,,,Python,,,,,,,
+R_2f6De2QJit5jxpp,CCIS,Bhavnagar,,India,Gujarati,"English, Hindi, Marathi",NMIMS,Mumbai,,India,Windows,Android,Java,0,Medium,Chocolate,White,6,7:30 AM,11:30 PM
+R_2fHSpAmL2ZMEezH,CCIS,Tianjin,,China,Mandarin,English,University of Science and Technology of China,Hefei,,China,Windows,Apple iOS,C#,0,Medium,Chocolate,Red Black White,7,12:00 AM,12:00 AM
+R_2fHSpAmL2ZMEezH,CCIS,,,China,,,,,,China,,,Python,,,,,,,
+R_2fHSpAmL2ZMEezH,CCIS,,,China,,,,,,China,,,Powershell,,,,,,,
+R_2R8o1exqZMPBBGT,CCIS,Glastonbury,CT,USA,English,None,,,,USA,Windows,Android,Python,1,Small,Chocolate,Red,42,12:00 AM,12:00 AM
+R_2UaoYUbd5RyWkBt,CCIS,Rourkela,,India,Hindi,English,Krupajal Engineering College,Bhubaneswar,,India,Linux/Unix,Android,Java,1,Medium,Vanilla,Blue,4,6:00 AM,10:00 PM
+R_2UaoYUbd5RyWkBt,CCIS,,,India,,,,,,India,,,Python,,,,,,,
+R_33xa8xeSeWi0M32,CCIS,Kolkata,,India,Bengali,"English, Hindi",Bhoomaraddi College of Engineering and Technology,Hubli,,India,Windows,Android,Python,3,Large,Chocolate,Red,9,12:00 AM,12:00 AM
+R_3fqqAaEd9HB8EJ7,CCIS,Urmiah,,Iran,Persian,"English, French, Turkish",Amirkabir Univ. of Tech,Tehran,,Iran,Apple,Apple iOS,Java,1,Small,Vanilla,Blue,3,12:00 AM,10:30 PM
+R_3iyhJqMrKjAR0mT,CCIS,Guntur,,India,Telugu,English,Visvesvaraya National Institute of Technology,nagpur,,India,Windows,Windows Phone,python,1,Small,Chocolate,orange,5,7:00 AM,1:00 AM
+R_3meG96nGsljaD5J,CAMD,Plymouth,MA,USA,English,Spanish,Simmons College,Boston,MA ,USA,Windows,Android,Javascript,0,Medium,Chocolate,Teal,6,6:30 AM,12:00 AM
+R_AGUOQatyevSTQ0V,CCIS,Darmstadt,,Germany,German,"French, English, Farsi, Spanish",University of Konstanz,Konstanz,,Germany,Linux/Unix,Android,Javascript,2,Small,Chocolate,Green,9,6:00 AM,10:00 PM
+R_cOPp5UGxciy3JGF,CCIS,Wendeng,,China,Chinese,English,Beijing University of Posts and Telecommunications,Beijing,,China,Windows,Android,C#,0,Small,Vanilla,azure,7,12:00 AM,12:00 AM
+R_cZ6kPEcBY6yDBFD,CCIS,New Delhi,,India,Hindi,English,KIIT University,Bhubaneswar,,India,Linux/Unix,Android,Python,2,Small,Chocolate,blue,3,12:00 AM,12:00 AM
+R_cZ6kPEcBY6yDBFD,CCIS,,,India,,,,,,India,,,Java,,,,,,,
+R_DCQbu3EShfSOiMV,CAMD,Miamisburg,OH,USA,English,none,the Ohio State University,Columbus,Ohio,USA,Apple,Apple iOS,Java,0,Medium,Chocolate,Black,11,10:30 AM,1:30 AM
+R_ebQLJGWGbaZ5Ue9,CCIS,Punjab,,India,Hindi,English,Guru Nanak Dev Universtiy,Amritsar,,India,Linux/Unix,Android,Java,1,Small,Vanilla,Blue,7,7:00 AM,11:00 PM
+R_ebQLJGWGbaZ5Ue9,CCIS,,,India,,,,,,India,,,Python,,,,,,,
+R_pN5cq18hK3CQUkV,CCIS,Baltimore,MD,USA,English,none,Northeastern University,Boston,MA,USA,Windows,Apple iOS,Javascript,2,Small,Vanilla,Yellow,211,12:00 AM,12:00 AM
+R_qL8hAIGkjChR3MZ,CCIS,Redwood City,CA,USA,English,none,UC San Diego,San Diego,CA,USA,Windows,Android,MATLAB,0,,Chocolate,Dark purple,1337,7:00 AM,12:00 AM
+R_RaSpUDFUSwjUZe9,CCIS,Kathmandu,,Nepal,Nepali,"English, Hindi",University of Texas at Arlington,Arlington,TX,USA,Linux/Unix,Android,java,0,Small,Vanilla,green,1,7:00 AM,12:00 AM
+R_RxzqtnYLZJpmOmR,CCIS,Dhamtari,,India,Hindi,English,Rungta College of Engineering and technology,Bhilai,,India,Apple,Apple iOS,Python,1,Medium,Chocolate,Blue,9,12:00 AM,12:00 AM
+R_SCs186tKi6xGpLb,CAMD,Wuhan,,China,Chinese,English,Beijing Institute of Graphic Communication,Beijing,,China,Apple,Apple iOS,p5.js,0.5,Medium,Vanilla,blue,2,8:00 AM,12:00 AM
+R_xc32S8GpbjnWBhv,CCIS,Tehran,,Iran,Farsi,English,Sharif University of Technology,Tehran,,Iran,Windows,Apple iOS,java,1,Small,Chocolate,blue,2,12:00 AM,12:00 AM
+R_yDOvS4wV9hFjpT3,CAMD,Valencia,,Spain,Spanish,English,Carlos III University,Madrid,,Spain,Windows,Apple iOS,d3.js,3,Small,Chocolate,Blue,3,8:30 AM,11:30 PM
+R_zbNSNGnVrlJy1ot,CCIS,Mumbai,,India,English,"Hindi, Marathi",University of Mumbai,Mumbai,Maharashtra,India,Apple,Apple iOS,Python,3,Small,Chocolate,pink,9,12:00 AM,12:00 AM
