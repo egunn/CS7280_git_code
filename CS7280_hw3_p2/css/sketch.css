@@ -1,0 +1,127 @@
+body {
+  font-family: "Raleway",Arial;
+  background-color: white;/*hsla(180, 10%, 95%, 1.0);*/
+  color: hsla(0, 10%, 10%, 1.0);
+  margin: 2em;
+  font-size: 10pt;
+  padding-left: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+strong {
+  color: hsla(0, 15%, 40%, 1.0);
+  text-transform: uppercase;
+  font-family: "Raleway", Arial, sans-serif;
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+  letter-spacing: 2.5px;
+  font-weight: lighter;
+  word-spacing: 4px;
+}
+
+h1 {
+    margin-bottom: 8px;
+}
+
+h4 {
+    margin-bottom: 6px;
+}
+h5 {
+    margin-top: 6px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+
+.paragraph {
+    min-width: 300px;
+    line-height: 1.5em;
+    font-size: 11pt;
+    float:left;
+}
+
+p.sidebar{
+    padding-top: 10pt;
+    font-size: 8pt;
+    line-height: 1.4em;
+    padding-left:0px;
+}
+
+.plot {
+    width:100%;
+    height:350px;
+    float:left;
+    position: relative;
+    padding-bottom:20px;
+    background: white;
+    margin: -20px;
+}
+
+.rangespan {
+    color:darkgray;
+}
+
+.slider {
+    width: 150px;
+    height: 17px;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom:6px;
+    background: lightgray;
+
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+
+}
+
+.slider .bar {
+    width: 386px;
+    height: 5px;
+    background: lightslategrey;
+    position: absolute;
+    top: 6px;
+    left: 8px;
+
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.slider .highlight {
+    height: 2px;
+    position: absolute;
+    width: 388px;
+    top: 6px;
+    left: 6px;
+
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+
+    background: rgba(255, 255, 255, 0.25);
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    background-color: gainsboro;
+    height: 2px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    position: relative;
+    top: 0px;
+    z-index: 1;
+    width: 5px;
+    height: 10px;
+    cursor: pointer;
+
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background-color:gainsboro;
+}

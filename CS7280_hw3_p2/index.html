@@ -1,0 +1,160 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/sketch.css">
+
+        <script src="./lib/queue.min.js"></script>
+        <script src="./lib/d3.v4.2.6.min.js"></script>
+        
+    </head>
+
+    <body class="body">
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Selecting Colors for a Visualization</h1>
+                <h5>by Erica Gunn</h5>
+                <h5>CS7280, Fall 2016</h5>
+                <br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h4>Types of color scheme</h4>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="paragraph">
+                            <p>
+                                It is important that the colors of a visualization match the kind of data that they are intended to portray.
+                                For <b>categorical</b> values, the most important factor is that the colors that represent different categories must be
+                                visually distinct. The number of categories should be limited by the number of colors that people can easily distinguish.
+                                Though there is no hard cutoff, fewer categories are generally considered better. It is important to use colors that differ
+                                in hue but have similar lightness values, to avoid unwanted "popout" effects that might imply that one category is more
+                                important than another.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <svg class="plot" id="plot1"></svg>
+                        <br>
+                    </div>
+                    <div class="col-md-2">
+                        <p class="sidebar">
+                            The maps indicate whether rents in a given Boston neighborhood are above (magenta/red), below (purple/green), or at (green/blue) the median
+                            values for the city (US Census Bureau, 2013). Gray represents neighborhoods for which there is no data. Using colors with different hue but similar values
+                            (left) makes the data more readable. In the map on the right, the red areas exhibit a pop out effect, and dominate the appearance of the map,
+                            possibly appearing larger as a result.
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="paragraph">
+                            <p>
+                                <b>Sequential</b> color schemes are best used for displaying ordinal data or quantitative data that shows a progressive change in value.
+                                The luminosity (also called lightness, or value) is generally given emphasis in these color schemes, which generally use a
+                                steady progression from dark to light across the color range. The colors in a sequential color scheme can be mapped
+                                using either linear or nonlinear functions, depending on the data range and variations of interest. Light colors are
+                                usually used to represent low data values, and dark colors for large numbers, but this distinction is not universal.
+                                Because they rely on differences in value rather than hue, sequential color schemes tend to be particularly color-blind friendly.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <svg class="plot" id="plot2"></svg>
+                        <br>
+                    </div>
+                    <div class="col-md-2">
+                        <p class="sidebar">
+                            Median household income for different Boston neighborhoods (US Census Bureau, 2013). The white-to-red
+                            sequential scale on the left shows a smooth increase in value, so that the highest-income areas are
+                            most prominent on the map. In the rainbow map at right, the progression is less clear, and larger areas
+                            (or those represented with primary colors) tend to pop out as being more important than the rest.
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="paragraph">
+                            <p>
+                                <b>Diverging</b> color schemes consist of two sequential schemes that intersect at an intermediate value (usually the mean,
+                                median, or zero). These color schemes are generally
+                                used when divergence from some identified value is the primary component of interest for the
+                                visualization. In these cases, a single sequence showing low values as light and large values as dark might give undue emphasis to
+                                one aspect of the data or another. Instead, a diverging color scheme sets one color (usually a neutral
+                                color or white) as the critical value against which the others are mapped. Values above and below critical each follow a sequential
+                                color scheme from light to dark, but each sequence uses a different hue. In this way, values close to the critical value are
+                                de-emphasized, and those far from the critical value are shown as different colors that are easily distinguished.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <svg class="plot" id="plot3"></svg>
+                        <br>
+                    </div>
+                    <div class="col-md-2">
+                        <p class="sidebar">
+                            Variation in rental prices for different Boston neighborhoods (US Census Bureau, 2013). Both maps use the
+                            same green-to-purple diverging color scale. In the map on the right, gray represents "no data" and white
+                            represents the median rental value. In the map on the left, white represents "no data", and gray is used for
+                            the median price. Use of a color value for the median improves readability of the map, and avoids the appearance of
+                            assigning value when there is actually no information for a neighborhood.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <br>
+
+
+
+
+        <br>
+
+
+    </body>
+
+    <script src="./js/sketch1.js"></script>
+</html>
