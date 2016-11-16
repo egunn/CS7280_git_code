@@ -74,12 +74,13 @@ function drawSvg(links, moves, nodes) {
             .text(function(d) { return d.id; });
 
 
-        nodeGroup.append("text")
+        var textLabels = nodeGroup.append("text")
             .attr('x',function(d){
                 //console.log(d3.select(this.parentNode).data()[0].x);
                 return 0})
             .attr('y',0)
-            .style('fill','black')
+            .attr('text-align','center')
+            .style('fill','white')
             .text(function(d) { return d.id; });
 
         simulation
@@ -97,9 +98,15 @@ function drawSvg(links, moves, nodes) {
                 .attr("x2", function(d) { return d.target.x; })
                 .attr("y2", function(d) { return d.target.y; });
 
+            var nodeX = [];
+            var nodeY = [];
+
             node
-                .attr("cx", function(d) { return d.x; })
-                .attr("cy", function(d) { return d.y; });
+                .attr("cx", function(d) {nodeX.push(d.x-5); return d.x; })
+                .attr("cy", function(d) {nodeY.push(d.y+3); return d.y; });
+
+            textLabels
+                .attr('transform',function(d,i){return 'translate('+ nodeX[i] + ',' + nodeY[i] + ')'})
         }
 
 
